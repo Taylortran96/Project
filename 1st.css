@@ -9,12 +9,13 @@
     text-decoration: none;
     scroll-behavior: smooth;
     list-style: none;
+    transition: all .2s linear;
 }
 :root{
-    --main-color: #1F4690;
-    --second-color: #FFE15D;
-    --third-color: #FF6000;
-    --fourth-color: #FF731D;
+    --1st-color: #FF6000;
+    --2nd-color: #FFAE6D;
+    --3rd-color: #00337C ;
+    --4th-color: #00E7FF;
 }
 section{
     padding: 50px 10%;
