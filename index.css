@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    transition: all .2s linear;
+    list-style: none;
+}
+:root{
+    --1st-color: #FF6000;
+    --2nd-color: #FFAE6D;
+    --3rd-color: #00337C ;
+    --4th-color: #00E7FF;
+}
+*::selection{
+    background-color: var(--1st-color);
+    color: #fff;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+body{
+    background: #f7f7f7;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F2E3DB;
+    padding: 2rem 9%;
+    box-shadow: 0.5rem 1rem black;
+}
+header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: grey;
+}
+header .logo i{
+    padding: .5rem;
+    color: var(--1st-color);
+}
+header .navbar a{
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: var(--3rd-color);
+}
+header .navbar a:hover{
+    color: var(--1st-color);
+}
+.menu-bar{
+    font-size: 3rem;
+    cursor: pointer;
+    color: black;
+    border: .2rem solid black;
+    border-radius: .3rem;
+    padding: .3rem 1.5rem;
+    display: none;
+}
+header .navbar a{
+    margin: 1.5rem;
+    padding: 1.5rem;
+    display: block;
+    border: .2rem solid var(--2nd-color);
+    border-left: .5rem solid (--1st-color);
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media (max-width: 991px){
+    html{
+        font-size: 55%;
+    }
+    header{
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 761px){
+    .menu-bar{
+        display: initial;
+    }
+    header .navbar{
+        position: absolute;
+        top: 100%; left: 0; right:0;
+        background-color: #F2E3DB;
+        border: 0.1rem solid black;
+    }
+}
