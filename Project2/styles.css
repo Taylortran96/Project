@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+
+body, html {
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+:root{
+    --main-color:#ECB390;
+    --1st-color:#ff2020;
+    --2nd-color:#BB5A5A;
+    --3th-color:#1B120F;
+}
+
+.container {
+    font-family: 'Comfortaa', cursive;
+    width: 1400px;
+    position: relative;
+    color: var(--main-color);
+}
+
+.header {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    background-color: var(--main-color);
+    top: 0;
+    z-index: 1;
+    font-family: 'Lora', serif;
+}
+.logo {
+    text-decoration: none;
+    font-size: 40px;
+    position: absolute;
+    left: 620px;
+    font-weight: bolder;
+    color: rgb(236, 56, 59)
+}
+
+.menu-header {
+    display: flex;
+    gap: 2px;
+    color:var(--1st-color);
+}
+
+.menu{ 
+    cursor: pointer;
+    padding: 10px 14px;
+    color: var(--1st-color);
+    border: none;
+}
+.click {
+    color: var(--1st-color);
+}
+.click:hover {
+    color: #fff;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.signin-btn{
+    margin-right: 2rem;
+}
+.signin-btn , .login-btn{
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #fff;
+    color: var(--3th-color);  
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    font-weight: 900;
+}
+.home {
+    position: absolute;
+    color: var(--1st-color);
+    top: 100px;
+    left: 130px;
+    font-size:50px;
+}
+.home h1{
+    font-weight: 700px;
+    color: var(--main-color);
+}
+.brand{
+    color: var(--1st-color);
+}
+.slogan{
+    color:var(--3th-color);
+    font-size: 2rem;
+}
+
+.img{
+    width: 1400px;
+}
+
+.title {
+    box-sizing: border-box;
+    width: 1400px;
+    height: 1500px;
+    background-color: var(--main-color);
+    padding: 40px;
+}
+
+.title-tag {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    font-size: 30px;
+    padding: 40px 0;
+    font-weight: 900;
+}
+
+.tag {
+    cursor: pointer;
+    color: var(--1st-color);
+    padding: 10px 26px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+}
+
+.tag-active, .tag:hover {
+    border: 2px solid var(--1st-color);
+    padding: 10px 26px;
+    border-radius: 50px;
+}
+
+.mb12{
+    margin-bottom: 12px;
+}
+
+.title-content {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.content {
+    width: 100%;
+    margin-bottom: 50px;
+    font-family: 'Lora', serif;
+}
+
+.content h1{
+    font-size: 30px;
+    color: var(--1st-color);
+}
+
+.item {
+    display: flex;
+    border: 1px solid var(--1st-color);
+    border-radius: 40px;
+}
+
+.item-content {
+    margin: 0 20px;
+    font-size: 22px;
+    color: var(--1st-color);
+}
+
+.title-img {
+    width: 430px;
+    height: 330px;
+    border-radius: 40px;
+}
+
+
+
+/* Page 2 */
+section{
+    background-color: var(--main-color);
+    margin-top: 2rem;
+}
+.top-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-box{
+    color: var(--3th-color);
+    width: fit-content;
+    padding: 3rem;
+}
+.left-box h1, .bottom-content h1{
+    font-size: 32px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.left-box h2{
+    font-size: 20px;
+    text-align: justify;
+}
+.left-box ul li{
+    font-size: 18px;
+}
+.left-box p, .bottom-content p{
+    font-size: 16px;
+    text-align: justify;
+}
+.position{
+    padding: 4rem;
+}
+.right-box {
+    width: 660px;
+    height: 440px;
+}
+
+.bottom-content{
+    padding: 50px ;
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+.mission, .responsible{
+    background-color: var(--2nd-color);
+}
+.about{
+    background-color: #6D9886;
+}
+
+/* Page 3 + 4 Quán Ăn và Quán Nước */
+.shop{
+    background: linear-gradient(to right,#FFE7CC, #F8CBA6 ,#FFE7CC);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.heading{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+.heading span{
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--1st-color);
+    font-family: 'Comfortaa', cursive;
+    font-weight: 800;
+}
+.heading h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--3th-color);
+}
+.shop-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 4rem;
+}
+.shop-container .box{
+    flex: 1 1 auto;
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    border-radius: 2rem;
+}
+.food{
+    background-color: #BB5A5A;
+}
+.drink{
+    background-color: #6D9886;
+}
+#item{
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 2rem;
+}
+.shop-container .box .box-img{
+    width: 140px;
+    height: 140px;
+    margin-top: -100px;
+}
+.shop-container .box .box-img img{
+    width: 100px;
+    height: 100%;
+    object-fit: contain;
+    object-position: center; 
+}
+.stars{
+    margin: 1rem 0 0.1rem
+}
+.shop-container .box .stars .bx{
+    color:yellow;
+}
+.shop-container .box h2{
+    color: var(--3th-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+.shop-container .box span{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: .2rem 0 .5rem;
+}
+.box .shop-btn{
+    border: 2px solid black;
+    border-radius: 2rem;
+    height: 1.5rem;
+    margin: 1rem;
+    padding: .3rem;
+    display: flex;
+    align-items: center;
+    background-color: #fff;    
+}
+.box .shop-btn:hover{
+    background:var(--1st-color);
+}
+
+/* Page 5: Đăng ký */
+
+/* Page 6: Đăng nhập */
+.signin-container, .login-container{
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    background-color: var(--main-color);
+    padding: 4rem 4rem;
+}
+.signin-container{
+    background: url(./images/Sign-backg.jpg);
+}
+.login-container{
+    background: url(./images/Login-backg.jpg);
+}
+.form-wrapper{
+    background-color: #fff;
+    padding-left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-wrapper img{
+    width: 660px;
+    height: 440px;
+}
+.signin-form, .login-form{
+    padding: 3rem;
+}
+.signin-form h2, .login-form h2{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: var(--1st-color);   
+}
+input[type=text],input[type=password] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+ 
+button {
+    background-color: var(--2nd-color);
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 10remp;
+}
+ 
+button:hover {
+    background-color:var(--1st-color);
+}
+
+form label{
+    color: var(--3th-color);
+    font-weight: bold;
+    font-size: 20px;
+    text-transform:inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer {
+    box-sizing: border-box;
+    width: 100%;
+    height: 500px;
+    background-color: var(--3th-color);
+    display: flex;
+    padding: 40px 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-context {
+    color: #fff;
+}
+
+.footer-menu {
+    font-size: 20px;
+    padding-bottom: 16px;
+    font-weight: bolder;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+}
+.footer-tag {
+    padding-bottom: 2rem;
+}
+.footer-tag h1{
+    text-decoration-line: underline;
+    font-size: 26px;
+    color: #BB5A5A;
+}
+.footer-tag h2{
+    font-size: 24px;
+}
+.footer-tag p{
+    font-size: 12px;
+}
+
+
