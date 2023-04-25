@@ -4,10 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Project 1-Music player</title>
     <link rel="stylesheet" href="./Project1.css">
 </head>
 <body>
+    <div class="container">
+        <div class="player">
+            <audio id="audio-player"></audio>
+            <h2 id="music-name" class="music-name"></h2>
+            <p id="music-author" class="music-author"></p>
+
+            <div class="player-progress">
+                <div class="progress-value">
+                    <span id="player-current-time"></span>
+                    <span id="player-duration"></span>
+                </div>
+                <progress id="player-progress"></progress>
+            </div>
+
+            <div class="player-button">
+                <button id="btn-prev" class="btn btn-prev">
+                    <i class="bi bi-rewind-fill"></i>
+                </button>
+                <button id="btn-play" class="btn btn-play">
+                    <i id="btn-play-icon" class="bi bi-play-fill"></i>
+                </button>
+                <button id="btn-next" class="btn btn-next">
+                    <i class="bi bi-fast-forward-fill"></i>
+                </button>
+            </div>
+        </div>
+        
+        
+    </div>
     <script src="./Project1.js"></script>
 </body>
 </html>
