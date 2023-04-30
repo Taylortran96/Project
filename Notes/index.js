@@ -9,7 +9,7 @@
 var firstDiv = document.querySelector('div')
 firstDiv.style.color = 'red'
 
-//3. queryselectorAll: Trả về tập hợp các phần tử phù hợp với bộ chọn CSS. Kết quả được trả về dưới dạng một đối tượng NodeList object.
+//3. queryselectorAll: Trả về tất cả các phần tử bên trong khớp với bộ chọn CSS. Kết quả được trả về dưới dạng một đối tượng NodeList object.
 // Ví dụ: tìm tất cả các phần tử p và cho chữ sang màu đỏ
 const paragraphs = document.querySelectorAll('p')
 for(var p of paragraphs) {
@@ -20,7 +20,14 @@ for(var p of paragraphs) {
 div.classList.remove("foo");
 div.classList.add("anotherclass");
 
-// 4. getElementById	
-// 5. getElementsByName	
-// 6. getElementsByTagName
-// 7. getElementsByClassName
+// 4. element.getElementById	=> tìm phần tử theo "ID"
+// 5. element.getElementsByName	=> tìm phần tử theo "Name"
+// 6. element.getElementsByTagName => => tìm phần tử theo tag "p" "div"
+// 7. element.getElementsByClassName => => tìm phần tử theo "Class"
+// 8. element.childNodes : trả về mảng các phần tử con của nó
+// 9. element.firstChild : phần tử con đầu tiên
+// 10. element.lastChild : phần tử con cuối cùng
+// 11. element.hasChildNodes : trả về true nếu có phần tử con, ngược lại là false
+// 12. element.nextSibling : phần tử cùng cấp tiếp theo
+// 13. element.previousSibling : phần tử cùng cấp trước
+// 14. element.parentNode : trả về nút cha
