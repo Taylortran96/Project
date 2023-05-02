@@ -31,3 +31,39 @@ div.classList.add("anotherclass");
 // 12. element.nextSibling : phần tử cùng cấp tiếp theo
 // 13. element.previousSibling : phần tử cùng cấp trước
 // 14. element.parentNode : trả về nút cha
+
+
+
+
+
+
+
+
+
+// 10. CSS Pseudo-Elements (::) vs Pseudo-Class (:)
+    /* A. CSS Pseudo-Class (":")
+        - selector:hover{}: di chuyển chuột vào đường dẫn
+        - selector:link{}: dường dẫn khi chưa click 
+        - selector:active{}: đường dẫn đã chọn
+        - selector:first-child{}: kết nối một phần tử “đầu tiên” của phần tử khác.
+        - selector:visited{}: Chọn tất cả liên kết đã truy cập
+        - selector:lang{}: cho phép bạn định nghĩa một quy tắc đặc biệt cho các ngôn ngữ khác.
+        - selector:root{}: Chọn phần tử gốc của tài liệu
+
+    B. CSS Pseudo-Elements ("::")
+        - selector::before{}:  sử dụng để thêm text, hình ảnh hay bất kỳ nội dung gì phía trước nội dung của phần tử được chọn
+        - selector::after{}: được sử dụng để thêm nội dung nhưng là vào phía sau phần tử được chọn.
+        - selector::selection{}: dùng để style cho một vùng văn bản được người dùng chọn (hay còn gọi là "bôi đen"). [Thuộc tính css khả dụng: color, background, curso, và outline]
+        - selector::first-line{}: dùng để style cho dòng đầu tiên của phần tử được chọn
+        - selector::first-letter{}: dùng để thêm style đặc biệt vào chữ cái đầu tiên của văn bản.
+
+
+
+
+
+
+
+
+
+
+    */
