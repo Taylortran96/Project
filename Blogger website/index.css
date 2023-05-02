@@ -1,0 +1,149 @@
+/* Font family: Abel */
+@font-face {
+    font-family: font-family: 'Abel', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+}
+/* Font Family: Anton */
+@font-face {
+    font-family:'Arvo', serif;
+    src: url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+}
+
+/* Font Family: Josefin */
+@font-face {
+    font-family: 'Josefin Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+}
+/* Font Family: Lexend */
+@font-face {
+    font-family: 'Lexend', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+}
+/* Font Family: Livvic */
+@font-face {
+    font-family: 'Livvic', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Livvic:wght@200&display=swap');
+}
+
+
+html,body{
+    margin:0;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+    /* overflow: add scrolling bar 
+    overflow-x: horizontal (nằm ngang); overflow-y: vertical (thẳng đứng)*/
+}
+
+:root{
+    /* Font color */
+    --text-gray: #003566;
+    --text-light: #457b9d;
+    --background-color:#c9ada7;
+    --white: #ffff;
+    --midnight:#023e8a;
+
+    /* gradient-color */
+    --sky:background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+
+    /* Font Family */
+    --Abel:'Abel', cursive;
+    --Anton:'Anton', cursive;
+    --Josefin:'Josefin', cursive;
+    --Lexend:'Lexend', cursive;
+    --Livvic:'Livvic', cursive;
+}
+/* ----------------Global classes------------------- */
+a{
+    text-decoration: none;
+    color: var(--text-gray) ;
+}
+.flex-grow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: var(--text-gray);
+    
+}
+
+ul{
+    list-style-type: none; 
+}
+
+/* ----------------Navar------------------- */
+.nav{
+    background: white;
+    padding: 0 rem;
+    height: 2rem;
+    min-height: 40vh;
+    overflow: hidden;
+}
+.nav .nav-menu{
+    display:flex;
+    justify-content: space-between;
+}
+.nav .nav-items{
+    display: flex;
+    margin: 0;
+}
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: var(--Abel);
+    font-size: 1.1rem;
+}
+.nav .nav-items .nav-link:hover{
+    background-color: var(--midnight);
+}
+.nav .nav-items .nav-link:hover a{
+    color: var(--white);
+}
+
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    display: block;
+    font-family:var(--Lexend);
+    font-size: 1.6rem;
+}
+
+.nav .social{
+    padding: 1.4rem 0;
+}
+.nav .social i{
+    padding: 0 .2rem;
+}
+.nav.social i:hover{
+    color: #c9ada7;
+}
+
+
+
+
+/* ----------------Navar------------------- */
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------Navar------------------- */
+
+
+
+
+/*  Viewpoint less then or equal to 750px */
+@media only screen and (max-width: 750px){
+    .nav .nav-menu{
+        display: flex;
+        flex-direction: column;
+        background: black;
+    }
+}
+
+/*  Viewpoint less then or equal to 750px */
