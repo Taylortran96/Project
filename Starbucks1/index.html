@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks-1</title>'
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#">
+                <img class="logo" src="./logo.png" alt="" >
+            </a>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Menu</a>
+                </li>
+                <li>
+                    <a href="#">What's New</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="text-box">
+                <h2>It's not just Coffee <br> It's <span>Starbucks</span></h2>
+                <p>Mỗi tuần Starbucks trên khắp thế giới phục vụ hàng triệu thức uống đến tay khách hàng. Và Starbucks cam kết rằng sẽ phục vụ từng khách hàng duy nhất tại một thời điểm. <br> Stabucks cam kết mối liên hệ này xuất phát từ sự trân trọng của chúng tôi – chúng tôi cam kết phục vụ sản phẩm cà phê với chất lượng tốt nhất, tạo mối liên kết đến từng khách hàng và thực hiện trách nhiệm với cộng đồng và xã hội tại nơi Starbucks hoạt động kinh doanh</p>
+                <a href="#">Learn More</a> 
+            </div>
+            <div class="img-box">
+                <img src="./img1.png" alt="" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li>
+                <img src="./img1.png" onclick="imgSlicer('img1.png'); changeCircleColor('#017143')">
+            </li>
+            <li>
+                <img src="./img2.png" onclick="imgSlicer('img2.png'); changeCircleColor('#eb7495')">
+            </li>
+            <li>
+                <img src="./img3.png" onclick="imgSlicer('img3.png'); changeCircleColor('#d752b1')">
+            </li>
+            <!-- Lưu ý: onclick: hình ảnh phải để ở ngoài, không để trong folder -->
+        </ul>
+        <ul class="social">
+            <li>
+                <a href="#">
+                    <img src="./facebook.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./instagram.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./twitter.png" alt="">
+                </a>
+            </li>
+        </ul>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
