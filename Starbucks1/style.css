@@ -154,18 +154,18 @@ header ul li a{
         width: 30px;
         height: 30px;
         cursor: pointer;
-        background: url(./menu.png);
+        background: url(menu.png);
         background-size: 30px;
         background-position: center;
         background-repeat: no-repeat;
-        filter:invert(1);
+        filter:invert(2);
         z-index: 11;
     }
     .toogle .active{
         position: fixed;
         right: 20px;
-        background: url(./close.png);
-        background-size: 25px;
+        background: url(close.png);
+        background-size: 30px;
         background-position: center;
         background-repeat: no-repeat;
     }
