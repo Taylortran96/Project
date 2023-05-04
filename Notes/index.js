@@ -33,8 +33,14 @@ div.classList.add("anotherclass");
 // 14. element.parentNode : trả về nút cha
 
 
+//Ví dụ
+const element = document.querySelector('.example');
 
-
+element.classList.add('new-class'); // thêm lớp CSS mới
+element.classList.remove('old-class'); // xoá lớp CSS cũ
+element.classList.toggle('active'); // bật hoặc tắt lớp CSS (nếu có)
+element.classList.contains('example'); // kiểm tra lớp CSS có trong phần tử hay không
+element.classList.replace('old-class', 'new-class'); // thay thế lớp CSS cũ bằng lớp CSS
 
 
 

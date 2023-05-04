@@ -11,3 +11,9 @@ function toggleMenu(){
     menuToggle.classList.toggle('active');
     navigation.classList.toggle('active');
 }
+
+/*
+const element = document.querySelector('.example');
+element.classList.toggle('active'); // Thêm lớp CSS "active" nếu phần tử HTML không có lớp CSS "active",
+                                    // và xoá lớp CSS "active" nếu phần tử HTML đã có lớp CSS "active".
+*/
